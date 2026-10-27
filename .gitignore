@@ -1,0 +1,16 @@
+# Node / NestJS
+node_modules/
+dist/
+coverage/
+.env
+
+# Uploads locales
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE / SO
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
