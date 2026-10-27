@@ -14,3 +14,9 @@ backend/uploads/*
 *.log
 .DS_Store
 Thumbs.db
+
+# Agentes de IA: subir solo comandos compartidos
+.opencode/*
+!.opencode/command/
+!.opencode/commands/
+.claude/settings.local.json
